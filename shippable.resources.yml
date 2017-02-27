@@ -16,3 +16,9 @@ resources:
       isPull: false
     seed:
       versionName: dc.pipeline.3
+
+  - name: ddc-cluster
+    type: cluster
+    integration: ddc
+    pointer:
+      sourceName: "ddc-cluster"
