@@ -7,3 +7,12 @@ resources:
       isPull: false
     seed:
       versionName: stable
+
+  - name: box-nginx
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: scriptnull/sample_node
+      isPull: false
+    seed:
+      versionName: dc.pipeline.3
