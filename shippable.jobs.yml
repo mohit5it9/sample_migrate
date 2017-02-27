@@ -11,7 +11,6 @@ jobs:
     type: manifest
     steps:
       - IN: box-sn
-      - IN: trigger-dv-man
 
   - name: ddc-deploy-boxsn
     type: deploy
